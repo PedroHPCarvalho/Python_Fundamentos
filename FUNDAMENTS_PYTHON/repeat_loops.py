@@ -1,14 +1,14 @@
 #------------------------------------------------------------------
 
 # Laço For/Else
-# text = input("Informe um Texto: ")
-# VOGAIS = "AEIOU"
+text = input("Informe um Texto: ")
+VOGAIS = "AEIOU"
 
-# for letra in text: # Este é um laço for que percorre cada caractere da string armazenada na variável text.
-#   if letra.upper() in VOGAIS: # converte a letra lida pelo for em maiuscula e verifica se esta entre as vogais
-#     print(letra, end="") # imprime a letra que passou pelo if, end="" faz com que a saida da impressao seja na mesma linha
-# else: 
-#   print("NÃO TEM VOGAIS")
+for letra in text: # Este é um laço for que percorre cada caractere da string armazenada na variável text.
+  if letra.upper() in VOGAIS: # converte a letra lida pelo for em maiuscula e verifica se esta entre as vogais
+    print(letra, end="") # imprime a letra que passou pelo if, end="" faz com que a saida da impressao seja na mesma linha
+else: 
+  print("NÃO TEM VOGAIS")
 
 
 #------------------------------------------------------------------
