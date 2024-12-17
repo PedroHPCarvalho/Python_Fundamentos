@@ -10,7 +10,7 @@ print()
 
 #Dicionario aninhados - podem armazenar qualquer tipo de objeto, desde que a chave para esse valor seja um objeto imutavel como (string e numeros)
 dict_aninhado = {"Pedro" : {"idade": 21, "namorada": "Ana"}}
-
+    
 #iterar dicionarios
 for dict_ in dict_aninhado:
   print(dict_, dict_aninhado[dict_])
